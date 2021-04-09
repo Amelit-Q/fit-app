@@ -5,6 +5,7 @@ namespace FitnessAppBL.Model
     /// <summary>
     /// Class User
     /// </summary>
+    [Serializable]
     public class User
     {
         /// <summary>
@@ -32,7 +33,7 @@ namespace FitnessAppBL.Model
         /// </summary>
         public double Height { get; set; }
 
-        
+
         /// <summary>Constructor for new user</summary>
         public User(string name, Gender gender, DateTime birthDay, double weight, double height)
         {
